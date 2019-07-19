@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Grid View - VinSol</string>
+    <string name="string_app_tag_line">Magical Grid Animation</string>
+    <string name="string_button_name_add">Add</string>
+    <string name="string_button_name_sub">Remove</string>
+    <string name="string_button_name_revert">Revert</string>
+</resources>

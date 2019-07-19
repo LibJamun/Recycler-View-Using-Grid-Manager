@@ -1,0 +1,62 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base"/>
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionMenuTextAppearance">
+            @android:style/TextAppearance.Holo.Widget.ActionBar.Menu
+        </item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="android:textColorSecondary">@color/colorTextBlack</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+    </style>
+
+    <style name="AppThemeWhite" parent="AppThemeWhite.Base"/>
+    <!-- Base application theme. -->
+    <style name="AppThemeWhite.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorPrimary">@color/colorTextBlack</item>
+        <item name="android:textColorSecondary">@color/colorTextBlackTwo</item>
+        <item name="actionMenuTextColor">@color/colorTextBlack</item>
+        <item name="colorControlActivated">@color/colorTextBlack</item>
+        <item name="android:actionMenuTextColor">@color/colorTextBlack</item>
+        <item name="android:actionMenuTextAppearance">
+            @android:style/TextAppearance.Holo.Widget.ActionBar.Menu
+        </item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+    </style>
+
+    <style name="AppBarWhite" parent="AppBarWhite.parent"/>
+
+    <style name="AppBarWhite.parent" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/colorTextBlack</item>
+        <item name="android:textColorSecondary">@color/colorTextBlackTwo</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="AppBarPopWhite" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/colorTextBlack</item>
+        <item name="android:textColorSecondary">@color/colorTextBlackTwo</item>
+        <item name="android:textColor">@color/colorTextBlack</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+
+</resources>

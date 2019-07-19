@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            app:showAsAction="ifRoom"
+            android:id="@+id/id_menu_sub"
+            android:titleCondensed="@string/string_button_name_sub"
+            android:icon="@drawable/icon_vd_subtract"
+            android:title="@string/string_button_name_sub"/>
+
+    <item
+            app:showAsAction="ifRoom"
+            android:id="@+id/id_menu_revert"
+            android:titleCondensed="@string/string_button_name_revert"
+            android:icon="@drawable/ic_menu_revert"
+            android:title="@string/string_button_name_revert"/>
+</menu>

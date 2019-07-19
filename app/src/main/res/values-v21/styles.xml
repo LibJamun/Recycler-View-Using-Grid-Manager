@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionMenuTextAppearance">
+            @android:style/TextAppearance.Holo.Widget.ActionBar.Menu
+        </item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:colorControlHighlight">@color/colorRippleEffect</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="AppThemeWhite" parent="AppThemeWhite.Base">
+        <item name="android:statusBarColor">@color/colorBlack</item>
+    </style>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Common -->
+    <dimen name="dimen_common_margin_large">16dp</dimen>
+    <dimen name="dimen_common_margin_very_very_large">24dp</dimen>
+    <dimen name="dimen_common_margin_very_large">20dp</dimen>
+    <dimen name="dimen_common_margin_medium">6dp</dimen>
+    <dimen name="dimen_common_margin_more">12dp</dimen>
+    <dimen name="dimen_common_margin">8dp</dimen>
+    <dimen name="dimen_common_margin_very_small">2dp</dimen>
+    <dimen name="dimen_common_margin_small">4dp</dimen>
+    <dimen name="dimen_common_margin_extra_large">30dp</dimen>
+    <dimen name="dimen_common_margin_less_large">14dp</dimen>
+    <dimen name="dimen_common_margin_less_more">10dp</dimen>
+    <dimen name="dimen_common_padding">8dp</dimen>
+    <dimen name="dimen_common_padding_more">12dp</dimen>
+    <dimen name="dimen_common_padding_large">16dp</dimen>
+    <dimen name="dimen_common_padding_medium">6dp</dimen>
+    <dimen name="dimen_common_button_diff">4dp</dimen>
+
+    <!-- text size-->
+    <dimen name="dimen_common_text_size_med_large">18sp</dimen>
+    <dimen name="dimen_common_text_size_very_large">20sp</dimen>
+    <dimen name="dimen_common_text_size_very_very_large">22sp</dimen>
+    <dimen name="dimen_common_text_size_very_small">11sp</dimen>
+    <dimen name="dimen_common_text_size_very_very_small">10sp</dimen>
+    <dimen name="dimen_common_text_size_large">16sp</dimen>
+    <dimen name="dimen_common_text_size_title">15sp</dimen>
+    <dimen name="dimen_common_text_size_sub">14sp</dimen>
+    <dimen name="dimen_common_text_size_med">13sp</dimen>
+    <dimen name="dimen_common_text_size_small">12sp</dimen>
+    <dimen name="dimen_common_text_size_extra_large">44sp</dimen>
+    <dimen name="dimen_launcher_image">120dp</dimen>
+    <dimen name="dimen_app_bar_elevation_zero">0dp</dimen>
+    <dimen name="dimen_app_bar_height_small">48dp</dimen>
+    <dimen name="dimen_app_bar_height">56dp</dimen>
+    <dimen name="dimen_shadow_view">4dp</dimen>
+    <dimen name="badge_text_size">9sp</dimen>
+
+    <!-- Animator Values-->
+    <integer name="anim_length">1000</integer>
+    <integer name="anim_length_half">500</integer>
+
+
+</resources>

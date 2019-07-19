@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/id_coordinator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activities.LauncherActivity">
+
+    <LinearLayout
+            android:id="@+id/id_linear_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <ImageView
+                android:id="@+id/id_image"
+                android:layout_width="@dimen/dimen_launcher_image"
+                android:layout_height="@dimen/dimen_launcher_image"
+                android:tint="@color/colorWhite"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/image_grid"/>
+
+        <TextView
+                android:layout_marginTop="@dimen/dimen_common_margin_large"
+                android:layout_marginBottom="@dimen/dimen_common_margin_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/dimen_common_text_size_very_large"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_app_tag_line"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/dimen_common_text_size_title"/>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

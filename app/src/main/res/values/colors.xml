@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f50057</color>
+    <color name="colorPrimaryDark">#bb002f</color>
+    <color name="colorAccent">#ff5983</color>
+
+    <color name="colorSecondary">#ff5252</color>
+    <color name="colorSecondaryDark">#c50e29</color>
+    <color name="colorSecondaryLight">#ff867f</color>
+
+    <color name="colorRippleEffect">#e8e8e8</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorTextBlack">#333333</color>
+    <color name="colorTextBlackTwo">#595959</color>
+
+    <color name="colorViewBlack">#1A000000</color>
+
+    <color name="colorPlaceholderOne">#ffccbc</color>
+    <color name="colorPlaceholderTwo">#ffe0b2</color>
+    <color name="colorPlaceholderThree">#b2dfdb</color>
+    <color name="colorPlaceholderFour">#d1c4e9</color>
+    <color name="colorLayoutBackground">#f5f5f5</color>
+
+</resources>
